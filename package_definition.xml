@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SystemDefinition schema="3.0.0" xmlns:qt="http://www.nokia.com/qt">
+   <package id="silentwidgetplugin" name="Silent Widget" levels="build app">
+    <collection id="silentwidgetplugin_info" name="Silent Widget Info" level="build">
+     <component id="silentwidgetplugin_rom" name="Silent Widget ROM" filter="s60,dfs_build" introduced="^4">
+      <unit bldFile="rom"/>
+     </component>
+    </collection>
+    <collection id="silentwidgetplugin" name="Silent Widget Plugin" level="app">
+		<!-- collection is really a component, need to move down a directory -->
+     <component id="silentwidgetplugin_build" name="Silent Widget Plugin Build" filter="s60,dfs_build" introduced="^4" class="plugin">
+	  <unit bldFile="." qt:proFile="silentwidgetplugin.pro"/>
+     </component>
+     <component id="silentwidgetplugin_test" name="Silent Widget Plugin Test" filter="s60,dfs_build" introduced="^4">
+      <unit bldFile="tsrc" qt:proFile="tsrc.pro"/>
+     </component>
+    </collection>
+   </package>
+</SystemDefinition>

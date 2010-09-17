@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE SystemDefinition SYSTEM "sysdef_1_5_1.dtd" [
+  <!ENTITY layer_real_source_path "sf/app/silentwidgetplugin" >
+]>
+
+<SystemDefinition name="silentwidgetplugin" schema="1.5.1">
+  <systemModel>
+    <layer name="app_layer">
+      <module name="silentwidgetplugin">
+        <unit unitID="silentwidgetplugin_qt" mrp="" bldFile="&layer_real_source_path;" name="silentwidgetplugin_qt" proFile="silentwidgetplugin.pro" qmakeArgs="-r" filter="dfs_build" />
+      </module>
+      <module name="t_silentwidgetplugin">
+        <unit unitID="t_silentwidgetplugin_qt" mrp="" bldFile="&layer_real_source_path;/tsrc" name="t_silentwidgetplugin_qt" proFile="tsrc.pro" qmakeArgs="-r" filter="dfs_build" />
+      </module>
+    </layer>
+  </systemModel>
+</SystemDefinition>
+
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hswidgetmanifest>
+    <uri>silentwidgetplugin</uri> 
+    <title>txt_applib_list_silent_widget</title> 
+    <description>Set volume on/off.</description>
+    <icon>silentwidgetplugin.png</icon>
+    <hidden>false</hidden>
+    <servicexml>silentwidgetplugin.xml</servicexml>
+    <translationfile>silent_widget</translationfile>
+</hswidgetmanifest>

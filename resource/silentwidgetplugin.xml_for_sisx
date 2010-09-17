@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+    <name>silentwidgetplugin</name>
+    <filepath>c:/private/20022F35/import/widgetregistry/2002EAD3/silentwidgetplugin.qtplugin</filepath>
+    <description>Silent widget</description>
+    <interface>
+        <name>com.nokia.symbian.IHomeScreenWidget</name>
+        <version>1.0</version>
+        <description>Silent widget</description>
+        <capabilities></capabilities>
+        <customproperty key="iconuri">silentwidgetplugin.png</customproperty>
+        <customproperty key="title">Silent widget</customproperty>
+    </interface>
+</service>

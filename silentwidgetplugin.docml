@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hbdocument version="1.0">
+  <widget name="dialog" type="HbDialog"/>
+  <widget name="pushButton" type="HbPushButton">
+    <real name="z" value="1"/>
+    <string name="text" value=""/>
+    <sizehint height="8un" type="PREFERRED" width="8un"/>
+  </widget>
+  <metadata activeUIState="Common ui state" display="NHD portrait" unit="un">
+    <uistate name="Common ui state" sections="#common"/>
+  </metadata>
+</hbdocument>
